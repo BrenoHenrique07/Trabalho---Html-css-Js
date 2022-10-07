@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+body{
+    background-color: black;
+}
+
+.titulo{
+    margin: 30px;
+    font-size: 60px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+h1, h2{
+    background: -webkit-linear-gradient(left, #ff1053 0%, #ff4f0f 100%);
+    background: linear-gradient(right, #ff1053 0%, #ff4f0f 100%);
+
+    background-image: url("imagens/flames.png");
+    background-size: contain;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.carros{
+    text-align: center;
+}
+
+.carros input{
+    width: 20%;
+    height: 2em;
+    padding: 2px;
+    display: block; 
+    margin: 10px auto;
+    border-radius: 8.5px;
+}
+
+.enviar{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 30px auto;
+    background-image: url("imagens/flames.png");
+}
+
+#Salvar, #Limpar{
+    width: 10%;
+    display: inline-block;
+}
+
+#conteiner_carros{
+    visibility:hidden;
+}
+
+.carros label{
+    color: tomato;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+table{
+    width: 55%;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 30px auto;
+}
+
+table th, tr{
+    text-align: center;
+}
